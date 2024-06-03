@@ -28,7 +28,7 @@ function Login() {
 
       <div>
         <div>Password:</div>
-        <input
+        <input type="password"
           onChange={(e) => setPassword(e.target.value)}
           value={password}
         />

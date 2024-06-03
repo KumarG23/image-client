@@ -13,3 +13,34 @@ body {
 #page-content {
   flex-grow: 2;
 }
+
+#nav {
+  background: linear-gradient(45deg, blue, orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#upload {
+  color: white;
+}
+
+button {
+  background-color: aquamarine;
+}
+
+#file-upload-button {
+  background-color: aquamarine;
+}
+
+
+
